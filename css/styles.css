@@ -140,6 +140,7 @@ ul{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 .solutions .container{
     display: flex;
@@ -177,7 +178,7 @@ font-family: "Roboto", sans-serif;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form:hover, .form:focus{
-background-color: #404BBF
+background-color: #404BBF;
 }
 .quality{
     padding: 120px 0;
@@ -294,9 +295,7 @@ top: 50%;
     width: 40px;
     height: 40px;
 }
-.social-icon-link:hover{
-    background-color:#404bbf;
-} 
+.social-icon-link:hover,
 .social-icon-link:focus{
     background-color:#404bbf;
 }
@@ -439,9 +438,7 @@ margin-bottom: 16px;
     display: flex;
      gap: 16px;
 }
-.social-icon-link.active:hover{
-    background-color: #31d0aa;
-} 
+.social-icon-link.active:hover,
 .social-icon-link.active:focus{
     background-color: #31d0aa;
 }
