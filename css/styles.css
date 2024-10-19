@@ -294,7 +294,8 @@ top: 50%;
     width: 40px;
     height: 40px;
 }
-.social-icon-link:hover, .social-icon-link:focus{
+.social-icon-link:hover, 
+.social-icon-link:focus{
     background-color:#404bbf;
 }
 .social-icon{
@@ -436,6 +437,7 @@ margin-bottom: 16px;
     display: flex;
      gap: 16px;
 }
-.social-icon-link.active:hover, .social-icon-link.active:focus{
+.social-icon-link.active:hover, 
+.social-icon-link.active:focus{
     background-color: #31d0aa;
 }
